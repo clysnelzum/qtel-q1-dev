@@ -1,0 +1,5 @@
+< waiting for any device >
+unlocked: yes
+Finished. Total time: 0.003s
+secure: no
+Finished. Total time: 0.003s

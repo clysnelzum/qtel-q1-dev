@@ -1,0 +1,14 @@
+# Python / mtkclient artifacts
+__pycache__/
+*.py[cod]
+.state
+
+# Large partition images (>100 MB GitHub Git limit)
+# Hosted as assets on GitHub Release v1.0:
+# https://github.com/clysnelzum/qtel-q1-dev/releases/tag/v1.0
+stock/stock_system_a.img
+stock/stock_product_a.img
+stock/stock_vendor_a.img
+rom/vendor_a_lineage.img
+rom/lineage-18.1-20240121-UNOFFICIAL-a64_bvS.img
+rom/lineage-18.1-20240121-UNOFFICIAL-a64_bvS.img.xz

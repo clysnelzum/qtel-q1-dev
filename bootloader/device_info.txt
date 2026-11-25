@@ -1,0 +1,237 @@
+uid=2000(shell) gid=2000(shell) groups=2000(shell),1004(input),1007(log),1011(adb),1015(sdcard_rw),1028(sdcard_r),3001(net_bt_admin),3002(net_bt),3003(inet),3006(net_bw_stats),3009(readproc),3011(uhid) context=u:r:shell:s0
+Linux localhost 4.19.127 #1 SMP PREEMPT Tue Jun 24 20:57:56 CST 2025 armv7l
+Enforcing
+=== CMDLINE ===
+=== CPUINFO ===
+Processor	: ARMv7 Processor rev 4 (v7l)
+model name	: ARMv7 Processor rev 4 (v7l)
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm aes pmull sha1 sha2 crc32 
+Processor	: ARMv7 Processor rev 4 (v7l)
+model name	: ARMv7 Processor rev 4 (v7l)
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm aes pmull sha1 sha2 crc32 
+Processor	: ARMv7 Processor rev 4 (v7l)
+model name	: ARMv7 Processor rev 4 (v7l)
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm aes pmull sha1 sha2 crc32 
+Processor	: ARMv7 Processor rev 4 (v7l)
+model name	: ARMv7 Processor rev 4 (v7l)
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm aes pmull sha1 sha2 crc32 
+Hardware	: MT6737M
+=== PARTITIONS ===
+total 0
+drwxr-xr-x 2 root root  780 2026-11-24 21:25 .
+drwxr-xr-x 6 root root 1680 2026-11-24 21:25 ..
+lrwxrwxrwx 1 root root   20 2026-11-24 21:25 boot_a -> /dev/block/mmcblk0p7
+lrwxrwxrwx 1 root root   20 2026-11-24 21:25 boot_b -> /dev/block/mmcblk0p8
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 dtbo_a -> /dev/block/mmcblk0p21
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 dtbo_b -> /dev/block/mmcblk0p22
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 expdb -> /dev/block/mmcblk0p11
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 flashinfo -> /dev/block/mmcblk0p32
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 frp -> /dev/block/mmcblk0p19
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 keystore -> /dev/block/mmcblk0p15
+lrwxrwxrwx 1 root root   20 2026-11-24 21:25 lk_a -> /dev/block/mmcblk0p5
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 lk_b -> /dev/block/mmcblk0p18
+lrwxrwxrwx 1 root root   20 2026-11-24 21:25 logo -> /dev/block/mmcblk0p9
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 md_udc -> /dev/block/mmcblk0p10
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 metadata -> /dev/block/mmcblk0p23
+lrwxrwxrwx 1 root root   18 2026-11-24 21:25 mmcblk0 -> /dev/block/mmcblk0
+lrwxrwxrwx 1 root root   23 2026-11-24 21:25 mmcblk0boot0 -> /dev/block/mmcblk0boot0
+lrwxrwxrwx 1 root root   23 2026-11-24 21:25 mmcblk0boot1 -> /dev/block/mmcblk0boot1
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 nvdata -> /dev/block/mmcblk0p20
+lrwxrwxrwx 1 root root   20 2026-11-24 21:25 nvram -> /dev/block/mmcblk0p2
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 oemkeystore -> /dev/block/mmcblk0p13
+lrwxrwxrwx 1 root root   20 2026-11-24 21:25 para -> /dev/block/mmcblk0p6
+lrwxrwxrwx 1 root root   15 2026-11-24 21:25 preloader_raw_a -> /dev/block/dm-7
+lrwxrwxrwx 1 root root   15 2026-11-24 21:25 preloader_raw_b -> /dev/block/dm-8
+lrwxrwxrwx 1 root root   20 2026-11-24 21:25 proinfo -> /dev/block/mmcblk0p1
+lrwxrwxrwx 1 root root   20 2026-11-24 21:25 protect1 -> /dev/block/mmcblk0p3
+lrwxrwxrwx 1 root root   20 2026-11-24 21:25 protect2 -> /dev/block/mmcblk0p4
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 seccfg -> /dev/block/mmcblk0p12
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 secro -> /dev/block/mmcblk0p14
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 super -> /dev/block/mmcblk0p24
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 tee_a -> /dev/block/mmcblk0p16
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 tee_b -> /dev/block/mmcblk0p17
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 userdata -> /dev/block/mmcblk0p31
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 vbmeta_a -> /dev/block/mmcblk0p25
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 vbmeta_b -> /dev/block/mmcblk0p28
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 vbmeta_system_a -> /dev/block/mmcblk0p26
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 vbmeta_system_b -> /dev/block/mmcblk0p29
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 vbmeta_vendor_a -> /dev/block/mmcblk0p27
+lrwxrwxrwx 1 root root   21 2026-11-24 21:25 vbmeta_vendor_b -> /dev/block/mmcblk0p30
+=== KEY PROPS ===
+[persist.sys.boot.reason]: []
+[persist.sys.boot.reason.history]: [reboot,factory_reset,1795566556
+[persist.sys.dalvik.vm.lib.2]: [libart.so]
+[persist.sys.device_provisioned]: [1]
+[persist.sys.displayinset.top]: [0]
+[persist.sys.fuse]: [true]
+[persist.sys.isolated_storage]: [true]
+[persist.sys.lmk.reportkills]: [true]
+[persist.sys.preinstalled]: [1]
+[persist.sys.timezone]: [America/Argentina/Buenos_Aires]
+[persist.sys.usb.config]: [adb]
+[ro.adb.secure]: [1]
+[ro.board.platform]: [mt6737m]
+[ro.boot.atm]: [disabled]
+[ro.boot.avb_version]: [1.1]
+[ro.boot.boot_devices]: [bootdevice,soc/11230000.mmc,11230000.mmc]
+[ro.boot.bootreason]: [kernel_panic]
+[ro.boot.dtb_idx]: [0]
+[ro.boot.dtbo_idx]: [0]
+[ro.boot.dynamic_partitions]: [true]
+[ro.boot.flash.locked]: [1]
+[ro.boot.force_normal_boot]: [1]
+[ro.boot.hardware]: [mt6735]
+[ro.boot.meta_log_disable]: [0]
+[ro.boot.mode]: [normal]
+[ro.boot.serialno]: [0123456789ABCDEF]
+[ro.boot.slot]: [a]
+[ro.boot.slot_suffix]: [_a]
+[ro.boot.vbmeta.avb_version]: [1.1]
+[ro.boot.vbmeta.device_state]: [locked]
+[ro.boot.vbmeta.digest]: [0a0bef22b6d8b4c2563aff4a6a8a0cc579ab6e81c02e5207130d388bc40f18b7]
+[ro.boot.vbmeta.hash_alg]: [sha256]
+[ro.boot.vbmeta.invalidate_on_error]: [yes]
+[ro.boot.vbmeta.size]: [8704]
+[ro.boot.verifiedbootstate]: [green]
+[ro.boot.veritymode]: [enforcing]
+[ro.bootimage.build.date]: [Tue Jun 24 20:55:08 CST 2025]
+[ro.bootimage.build.date.utc]: [1750769708]
+[ro.bootimage.build.fingerprint]: [Q-Tel/full_k37m_m01c/k37m_m01c:13/RP1A.200720.011/mp1k61v164bspP1:user/release-keys]
+[ro.bootloader]: [unknown]
+[ro.bootmode]: [normal]
+[ro.build.ab_update]: [true]
+[ro.build.characteristics]: [default]
+[ro.build.date]: [Tue Jun 24 20:55:08 CST 2025]
+[ro.build.date.utc]: [1750769708]
+[ro.build.description]: [full_k37m_m01c-user 13 RP1A.200720.011 mp1k61v164bspP1 release-keys]
+[ro.build.display.id]: [Q-Tel_S500_Q1_V06]
+[ro.build.fingerprint]: [KONKA/Y109/Y109:11/RP1A.201005.006/b3d210273:user/release-keys]
+[ro.build.flavor]: [full_k37m_m01c-user]
+[ro.build.host]: [dell-PowerEdge-R740]
+[ro.build.id]: [RP1A.200720.011]
+[ro.build.product]: [k37m_m01c]
+[ro.build.tags]: [release-keys]
+[ro.build.type]: [user]
+[ro.build.user]: [lixuheng]
+[ro.build.version.all_codenames]: [REL]
+[ro.build.version.base_os]: []
+[ro.build.version.codename]: [REL]
+[ro.build.version.incremental]: [mp1k61v164bspP1]
+[ro.build.version.min_supported_target_sdk]: [23]
+[ro.build.version.preview_sdk]: [0]
+[ro.build.version.preview_sdk_fingerprint]: [REL]
+[ro.build.version.release]: [13]
+[ro.build.version.release_or_codename]: [13]
+[ro.build.version.sdk]: [30]
+[ro.build.version.security_patch]: [2022-09-01]
+[ro.crypto.metadata.enabled]: [true]
+[ro.crypto.state]: [encrypted]
+[ro.crypto.type]: [file]
+[ro.crypto.uses_fs_ioc_add_encryption_key]: [true]
+[ro.crypto.volume.filenames_mode]: [aes-256-cts]
+[ro.debuggable]: [0]
+[ro.hardware]: [mt6735]
+[ro.hardware.egl]: [mali]
+[ro.mediatek.rsc_name]: [default]
+[ro.mediatek.version.branch]: [alps-mp-r0.mssi1]
+[ro.mediatek.wlan.p2p]: [1]
+[ro.mediatek.wlan.wsc]: [1]
+[ro.mtk_perf_fast_start_win]: [1]
+[ro.mtk_perf_response_time]: [1]
+[ro.mtk_perf_simple_start_win]: [1]
+[ro.oem_unlock_supported]: [1]
+[ro.product.board]: [k37m_m01c]
+[ro.product.brand]: [Q-Tel]
+[ro.product.build.date]: [Tue Jun 24 20:55:08 CST 2025]
+[ro.product.build.date.utc]: [1750769708]
+[ro.product.build.fingerprint]: [Q-Tel/full_k37m_m01c/k37m_m01c:13/RP1A.200720.011/mp1k61v164bspP1:user/release-keys]
+[ro.product.build.id]: [RP1A.200720.011]
+[ro.product.build.tags]: [release-keys]
+[ro.product.build.type]: [user]
+[ro.product.build.version.incremental]: [mp1k61v164bspP1]
+[ro.product.build.version.release]: [13]
+[ro.product.build.version.release_or_codename]: [13]
+[ro.product.build.version.sdk]: [30]
+[ro.product.cpu.abi]: [armeabi-v7a]
+[ro.product.cpu.abi2]: [armeabi]
+[ro.product.cpu.abilist]: [armeabi-v7a,armeabi]
+[ro.product.cpu.abilist32]: [armeabi-v7a,armeabi]
+[ro.product.cpu.abilist64]: []
+[ro.product.device]: [k37m_m01c]
+[ro.product.first_api_level]: [30]
+[ro.product.internal_version]: [M01C_XINGYU_V06_2025_06_24]
+[ro.product.locale]: [es-ES]
+[ro.product.manufacturer]: [Q-Tel]
+[ro.product.model]: [Q1]
+[ro.product.name]: [full_k37m_m01c]
+[ro.product.odm.brand]: [Q-Tel]
+[ro.product.odm.device]: [k37m_m01c]
+[ro.product.odm.manufacturer]: [Q-Tel]
+[ro.product.odm.model]: [Q1]
+[ro.product.odm.name]: [full_k37m_m01c]
+[ro.product.product.brand]: [Q-Tel]
+[ro.product.product.device]: [k37m_m01c]
+[ro.product.product.manufacturer]: [Q-Tel]
+[ro.product.product.model]: [Q1]
+[ro.product.product.name]: [full_k37m_m01c]
+[ro.product.property_source_order]: [odm,vendor,product,system]
+[ro.product.system.brand]: [Q-Tel]
+[ro.product.system.device]: [k37m_m01c]
+[ro.product.system.manufacturer]: [Q-Tel]
+[ro.product.system.model]: [Q1]
+[ro.product.system.name]: [full_k37m_m01c]
+[ro.product.system_ext.brand]: [Q-Tel]
+[ro.product.system_ext.device]: [k37m_m01c]
+[ro.product.system_ext.manufacturer]: [Q-Tel]
+[ro.product.system_ext.model]: [Q1]
+[ro.product.system_ext.name]: [full_k37m_m01c]
+[ro.product.vendor.brand]: [Q-Tel]
+[ro.product.vendor.device]: [k37m_m01c]
+[ro.product.vendor.manufacturer]: [Q-Tel]
+[ro.product.vendor.model]: [Q1]
+[ro.product.vendor.name]: [full_k37m_m01c]
+[ro.product.vndk.version]: [30]
+[ro.secure]: [1]
+[ro.vendor.build.date]: [Tue Jun 24 20:55:08 CST 2025]
+[ro.vendor.build.date.utc]: [1750769708]
+[ro.vendor.build.fingerprint]: [Q-Tel/full_k37m_m01c/k37m_m01c:13/RP1A.200720.011/mp1k61v164bspP1:user/release-keys]
+[ro.vendor.build.security_patch]: [2022-09-01]
+[ro.vendor.build.version.incremental]: [mp1k61v164bspP1]
+[ro.vendor.gmo.ram_optimize]: [1]
+[ro.vendor.gmo.rom_optimize]: [1]
+[ro.vendor.init.sensor.rc]: [init.sensor_1_0.rc]
+[ro.vendor.md_mims_support]: [1]
+[ro.vendor.md_prop_ver]: [1]
+[ro.vendor.mediatek.platform]: [MT6737M]
+[ro.vendor.mediatek.version.branch]: [alps-mp-r0.mp1]
+[ro.vendor.mediatek.version.release]: [alps-mp-r0.mp1-V8.432.1_future.r0mp1.k61v1.64.bsp_P1]
+[ro.vendor.mtk.bt_sap_enable]: [true]
+[ro.vendor.mtk_aal_support]: [1]
+[ro.vendor.mtk_agps_app]: [1]
+[ro.vendor.mtk_besloudness_support]: [1]
+[ro.vendor.mtk_c2k_lte_mode]: [0]
+[ro.vendor.mtk_camera_app_version]: [2]
+[ro.vendor.mtk_config_max_dram_size]: [0x80000000]
+[ro.vendor.mtk_emmc_support]: [1]
+[ro.vendor.mtk_external_sim_only_slots]: [0]
+[ro.vendor.mtk_fd_support]: [1]
+[ro.vendor.mtk_gps_support]: [1]
+[ro.vendor.mtk_hidl_consolidation]: [1]
+[ro.vendor.mtk_log_hide_gps]: [1]
+[ro.vendor.mtk_lte_support]: [1]
+[ro.vendor.mtk_md1_support]: [5]
+[ro.vendor.mtk_nn_quant_preferred]: [1]
+[ro.vendor.mtk_pq_color_mode]: [1]
+[ro.vendor.mtk_pq_support]: [0]
+[ro.vendor.mtk_protocol1_rat_config]: [Lf/Lt/W/G]
+[ro.vendor.mtk_ps1_rat]: [Lf/Lt/W/G]
+[ro.vendor.mtk_ril_mode]: [c6m_3rild]
+[ro.vendor.mtk_sim_card_onoff]: [3]
+[ro.vendor.mtk_telephony_add_on_policy]: [0]
+[ro.vendor.mtk_wapi_support]: [1]
+[ro.vendor.mtk_wappush_support]: [1]
+[ro.vendor.num_md_protocol]: [2]
+[ro.vendor.pref_scale_enable_cfg]: [1]
+[ro.vendor.sim_me_lock_mode]: [0]
+[ro.vendor.wifi.sap.interface]: [ap0]
+[sys.oem_unlock_allowed]: [1]

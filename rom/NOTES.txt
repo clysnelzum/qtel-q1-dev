@@ -1,0 +1,44 @@
+Q-Tel Q1 (k37m_m01c / MT6737M) — LineageOS 18.1 GSI Technical Bringup Notes
+============================================================================
+
+1. Host & Architecture Decision
+   - Target SoC: MediaTek MT6737M (Cortex-A53 running 32-bit ARMv7 kernel 4.19.127).
+   - Stock vendor: Android 11 (VNDK 30, first_api_level=30), Project Treble A/B
+     with dynamic partitions inside 2.50 GB 'super'.
+   - Why LineageOS 18.1 (Android 11) instead of LineageOS 17.1 (Android 10):
+     Treble is forward-compatible from VNDK 30 (Android 11+), not backward-compatible
+     to VNDK 29 (Android 10) without rebuilding vendor HALs from source.
+   - GSI chosen: Andy Yan's lineage-18.1-20240121-UNOFFICIAL-a64_bvS (vanilla, no GApps).
+
+2. Root-Cause Findings Resolved During Bringup (from /sys/fs/pstore)
+   a) Binder Protocol Mismatch:
+      - Initial test with arm_bvS (32-bit binder, Protocol 7) crashed every service
+        with: "Binder driver protocol(8) does not match user space protocol(7)!".
+      - Switching to a64_bvS (arm32_binder64, Protocol 8) resolved all binder crashes.
+   b) Missing binderfs Mount:
+      - Kernel 4.19 uses CONFIG_ANDROID_BINDERFS=y; stock system_a mounted /dev/binderfs
+        in /system/etc/init/hw/init.rc, which the GSI omitted.
+      - Solution: Added /vendor/etc/init/init.binderfs.rc (mode 0644, SELinux label
+        u:object_r:vendor_configs_file:s0) to vendor_a.
+      - Pitfall noted: Android init silently ignores .rc files that are group-writable
+        (0664); explicit 0644 permissions via debugfs set_inode_field are mandatory.
+   c) Missing /vendor/etc/fstab.mt6735 after raw block push:
+      - Pushing vendor_a.img via 'adb push ... /dev/block/mapper/vendor_a' in TWRP
+        did not reliably persist over dynamic super mapping; flashing via TWRP's
+        userspace fastbootd ('fastboot flash vendor_a') persisted cleanly and fixed
+        ReadDefaultFstab() + /data mounting.
+   d) Unencrypted /data:
+      - Stock Android 11 vold hangs if fileencryption/metadata_encryption are stripped
+        from fstab.mt6735, whereas LineageOS 18.1 GSI boots cleanly on unencrypted
+        f2fs /data (12 GB, 11 GB free) and keeps Internal Storage usable in TWRP/MTP.
+   e) Dynamic Partition Sizing in super (2.50 GB):
+      - Stock layout: system_a=1.11 GB, product_a=601 MB, vendor_a=140 MB.
+      - Replacing product_a with empty_product.img (4 MB ext4) removes all Chinese
+        bloatware/EasyOS overlays and gives ample room for system_a (1.20 GiB).
+
+3. Verified Post-Boot Status
+   - ADB device: 0123456789ABCDEF (lineage_a64_bvS)
+   - ro.lineage.version = 18.1-20240121-UNOFFICIAL-a64_bvS
+   - sys.boot_completed = 1
+   - /data mounted on /dev/block/mmcblk0p31 (12G f2fs, unencrypted)
+   - Display: 240x320 @ 120 dpi; Battery telemetry working (91%)

@@ -1,0 +1,7 @@
+Main - Handling da commands ...
+Unknown lockstate or no lockstate. Shall I write a new one ?
+Dangerous !! Type "v3" or "v4" for a new state. Press just enter to cancel.Sej - SecCfg Hw - HACC init
+Sej - SecCfg Hw - HACC run
+Sej - SecCfg Hw - HACC terminate
+Done |██████████| 100.0% Write: (0x1A00/0x1A00),0.00 MB/s
+DaHandler - Successfully wrote seccfg.

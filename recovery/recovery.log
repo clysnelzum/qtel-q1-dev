@@ -1,0 +1,903 @@
+libc: Unable to set property "ro.twrp.boot" to "1": error code: 0xb
+Starting TWRP 3.7.0_11-A022M-test1-8bd48201 on Wed Nov 25 01:39:27 2026
+ (pid 204)
+TW_NO_REBOOT_BOOTLOADER := true
+RECOVERY_SDCARD_ON_DATA := true
+I:Lun file '/sys/class/android_usb/android0/f_mass_storage/lun0/file' does not exist, USB storage mode disabled
+TW_HAS_DOWNLOAD_MODE := true
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+I:TW_BRIGHTNESS_PATH := /sys/class/backlight/panel/brightness
+I:Specified brightness file '/sys/class/backlight/panel/brightness' not found.
+I:Find_File: Error opening '/sys/class/backlight'
+I:Found brightness file at '/sys/class/leds/lcd-backlight/brightness'
+I:TWFunc::Set_Brightness: Setting brightness control to 120
+I:TW_EXCLUDE_ENCRYPTED_BACKUPS := true
+I:LANG: en
+Starting the UI...
+setting DRM_FORMAT_RGB565 and GGL_PIXEL_FORMAT_RGB_565
+cannot find/open a drm device: No such file or directory
+fb0 reports (possibly inaccurate):
+  vi.bits_per_pixel = 32
+  vi.red.offset   =   0   .length =   8
+  vi.green.offset =   8   .length =   8
+  vi.blue.offset  =  16   .length =   8
+setting GGL_PIXEL_FORMAT_RGBA_8888
+double buffered
+framebuffer: 0 (240 x 320)
+Using fbdev graphics.
+I:TWFunc::Set_Brightness: Setting brightness control to 120
+TW_SCREEN_BLANK_ON_BOOT := true
+I:TWFunc::Set_Brightness: Setting brightness control to 0
+I:TWFunc::Set_Brightness: Setting brightness control to 120
+I:Loading package: splash (/twres/splash.xml)
+I:Load XML directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/splash.xml' directly
+I:Checking resolution...
+I:Scaling theme width 0.222222x and height 0.166667x, offsets x: 0 y: 0 w: 0 h: 0
+I:Loading resources...
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Loading page splash
+I:Switching packages (splash)
+I:minui: /sys/board_properties/virtualkeys.mtk-tpd is 2 % 6
+I:No recovery folder found. Using default folder.
+I:Loading package: TWRP (/TWRP/theme/ui.zip)
+I:Loading zip theme
+I:Loading package: TWRP (/twres/ui.xml)
+I:Load XML directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/uk.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/tr.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sv.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sk.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/ru.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pt_PT.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pt_BR.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/nl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/it.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/id.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/hu.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/fr.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/es.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/el.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/de.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/cz.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+parsing languageFile
+parsing languageFile done
+I:PageManager::LoadFileToBuffer loading filename: '/twres/ui.xml' directly
+I:Checking resolution...
+I:Scaling theme width 0.222222x and height 0.166667x, offsets x: 0 y: 0 w: 0 h: 0
+I:Loading resources...
+I:Failed to load image from indeterminate013, error -1
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Including file: /twres/portrait.xml...
+I:PageManager::LoadFileToBuffer loading filename: '/twres/portrait.xml' directly
+I:Loading resources...
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Loading page main
+I:Loading page main2
+I:Loading page install
+I:Loading page flash_confirm
+I:Loading page flash_zip
+I:Loading page flash_done
+I:Loading page flash_sleep_and_reboot
+I:Loading page flashimage_confirm
+I:Loading page clear_vars
+I:Loading page reboot_system_routine
+I:Loading page confirm_action
+I:Loading page action_page
+I:Loading page singleaction_page
+I:Loading page action_complete
+I:Loading page filecheck
+I:Loading page rebootcheck
+I:Loading page wipe
+I:Loading page advancedwipe
+I:Loading page formatdata
+I:Loading page formatdata_confirm
+I:Loading page checkpartitionlist
+I:Loading page partitionoptions
+I:Loading page refreshfilesystem
+I:Loading page selectfilesystem
+I:Loading page backup
+I:Loading page multiuser_warning
+I:Loading page backup_options
+I:Loading page backupname1
+I:Loading page backupname2
+I:Loading page backupencryption
+I:Loading page backupencryption2
+I:Loading page checkbackuppassword
+I:Loading page backup_run
+I:Loading page restore
+I:Unable to open '//TWRP/BACKUPS/0123456789ABCDEF'
+I:Loading page restore_force
+I:Unable to open '//TWRP/BACKUPS'
+I:Loading page restore_read
+I:Loading page restore_decrypt
+I:Loading page try_restore_decrypt
+I:Loading page restore_select
+I:Loading page renamebackup
+I:Loading page restore_run
+I:Loading page mount
+I:Loading page usb_mount
+I:Loading page usb_umount
+I:Loading page system_readonly_check
+I:Loading page fastbootreboot
+I:Loading page reboot
+I:Loading page installapp
+I:Loading page system_readonly
+I:Loading page settings
+I:Loading page settings_timezone
+I:Loading page settings_screen
+I:Loading page settings_vibration
+I:Loading page settings_language
+I:Loading page copylog
+I:Loading page advanced
+I:Loading page partsdcardsel
+I:Loading page partsdcardcheck
+I:Loading page partsdcard
+I:Loading page htcdumlock
+I:Loading page repackselect
+I:Loading page repackconfirm
+I:Loading page lock
+I:Loading page filemanagerlist
+I:Loading page filemanageroptions
+I:Loading page choosedestinationfolder
+I:Loading page filemanagerrenamefile
+I:Loading page filemanagerrenamefolder
+I:Loading page filemanagerchmod
+I:Loading page filemanagerconfirm
+I:Loading page filemanageraction
+I:Loading page decrypt
+I:Loading page decrypt_pattern
+I:Loading page decrypt_pin
+I:Loading page trydecrypt
+I:Loading page canceldecrypt
+I:Loading page terminalcommand
+I:Loading page fastboot
+I:Loading page sideload
+I:Loading page fixcontexts
+I:Loading page slideout
+I:Loading page select_storage
+I:Loading page select_language
+I:Loading page decrypt_users
+I:Loading page changeTwrpFolder
+I:Loading page restore_keymaster
+I:Set page: 'clear_vars'
+I:Set page: 'main2'
+I:Switching packages (TWRP)
+boot command: bootonce-bootloader
+I:Startup Commands: 
+ro.boot.bootreason=rtc
+ro.boottime.adbd=2994734121
+ro.boottime.init=1980234097
+ro.boottime.init.selinux=229062100
+ro.boottime.init.first_stage=54398082
+ro.boottime.init.cold_boot_wait=495
+ro.boottime.ueventd=2416077448
+ro.boottime.recovery=2987709582
+ro.boottime.hwservicemanager=2937330039
+ro.boottime.vndservicemanager=2943242578
+ro.cold_boot_done=true
+ro.bionic.arch=arm
+ro.bionic.2nd_arch=
+ro.bionic.cpu_variant=cortex-a53
+ro.bionic.2nd_cpu_variant=
+dalvik.vm.minidebuginfo=true
+dalvik.vm.dex2oat-minidebuginfo=true
+dalvik.vm.dex2oat-max-image-block-size=524288
+dalvik.vm.dex2oat-resolve-startup-strings=true
+dalvik.vm.dex2oat-updatable-bcp-packages-file=/system/etc/updatable-bcp-packages.txt
+debug.atrace.tags.enableflags=0
+ro.twrp.boot=1
+ro.twrp.version=3.7.0_11-A022M-test1
+ro.wifi.channels=
+ro.allow.mock.location=1
+ro.build.flavor=full_k37m_m01c-eng
+ro.build.selinux=1
+ro.build.version.all_codenames=REL
+ro.build.version.preview_sdk_fingerprint=REL
+ro.build.version.min_supported_target_sdk=23
+ro.build.characteristics=default
+ro.iorapd.enable=true
+ro.kernel.android.checkjni=1
+ro.system.build.id=RQ1A.210205.004
+ro.system.build.date=Sat Nov  7 15:05:30 UTC 2026
+ro.system.build.date.utc=1794063930
+ro.system.build.tags=test-keys
+ro.system.build.type=eng
+ro.system.build.version.sdk=30
+ro.system.build.version.release=11
+ro.system.build.version.incremental=eng.runner.20261107.150622
+ro.system.build.version.release_or_codename=16.1.0
+ro.system.build.fingerprint=Q-Tel/full_k37m_m01c/k37m_m01c:13/RP1A.200720.011/mp1k61v164bspP1:user/release-keys
+ro.treble.enabled=false
+ro.product.cpu.abi2=armeabi
+ro.product.build.id=RQ1A.210205.004
+ro.product.build.date=Sat Nov  7 15:05:30 UTC 2026
+ro.product.build.date.utc=1794063930
+ro.product.build.tags=test-keys
+ro.product.build.type=eng
+ro.product.build.version.sdk=30
+ro.product.build.version.release=11
+ro.product.build.version.incremental=eng.runner.20261107.150622
+ro.product.build.version.release_or_codename=16.1.0
+ro.product.build.fingerprint=Q-Tel/full_k37m_m01c/k37m_m01c:13/RP1A.200720.011/mp1k61v164bspP1:user/release-keys
+ro.product.locale=en-US
+ro.product.system.name=full_k37m_m01c
+ro.product.system.brand=Q-Tel
+ro.product.system.model=Q1
+ro.product.system.device=k37m_m01c
+ro.product.system.manufacturer=Q-Tel
+ro.product.product.name=full_k37m_m01c
+ro.product.product.brand=Q-Tel
+ro.product.product.model=Q1
+ro.product.product.device=k37m_m01c
+ro.product.product.manufacturer=Q-Tel
+ro.product.system_ext.name=full_k37m_m01c
+ro.product.system_ext.brand=Q-Tel
+ro.product.system_ext.model=Q1
+ro.product.system_ext.device=k37m_m01c
+ro.product.system_ext.manufacturer=Q-Tel
+ro.system_ext.build.id=RQ1A.210205.004
+ro.system_ext.build.date=Sat Nov  7 15:05:30 UTC 2026
+ro.system_ext.build.date.utc=1794063930
+ro.system_ext.build.tags=test-keys
+ro.system_ext.build.type=eng
+ro.system_ext.build.version.sdk=30
+ro.system_ext.build.version.release=11
+ro.system_ext.build.version.incremental=eng.runner.20261107.150622
+ro.system_ext.build.version.release_or_codename=16.1.0
+ro.system_ext.build.fingerprint=Q-Tel/full_k37m_m01c/k37m_m01c:13/RP1A.200720.011/mp1k61v164bspP1:user/release-keys
+ro.postinstall.fstab.prefix=/system
+ro.actionable_compatible_property.enabled=false
+init.svc.adbd=restarting
+init.svc.ueventd=running
+init.svc.recovery=running
+init.svc.hwservicemanager=running
+init.svc.vndservicemanager=running
+twrp.crash_counter=0
+twrp.action_complete=0
+ro.config.ringtone=Ring_Synth_04.ogg
+ro.config.alarm_alert=Alarm_Classic.ogg
+ro.config.notification_sound=pixiedust.ogg
+ro.boot.mode=recovery
+ro.boot.slot=a
+ro.boot.dtb_idx=0
+ro.boot.dtbo_idx=0
+ro.boot.hardware=mt6735
+ro.boot.boot_devices=bootdevice,soc/11230000.mmc,11230000.mmc
+ro.boot.meta_log_disable=0
+ro.boot.verifiedbootstate=orange
+ro.build.id=RQ1A.210205.004
+ro.build.date=Sat Nov  7 15:05:30 UTC 2026
+ro.build.date.utc=1794063930
+ro.build.host=runnervmlby3q
+ro.build.tags=test-keys
+ro.build.type=eng
+ro.build.user=runner
+ro.build.display.id=RP1A.200720.011
+ro.build.product=k37m_m01c
+ro.build.version.sdk=30
+ro.build.version.base_os=
+ro.build.version.release=11
+ro.build.version.codename=REL
+ro.build.version.incremental=eng.runner.20261107.150622
+ro.build.version.preview_sdk=0
+ro.build.version.security_patch=2099-12-31
+ro.build.version.release_or_codename=16.1.0
+ro.build.description=full_k37m_m01c-user 13 RP1A.200720.011 mp1k61v164bspP1 release-keys
+ro.product.cpu.abi=armeabi-v7a
+ro.product.cpu.abilist=armeabi-v7a,armeabi
+ro.product.name=full_k37m_m01c
+ro.product.brand=Q-Tel
+ro.product.model=Q1
+ro.product.device=k37m_m01c
+ro.product.manufacturer=Q-Tel
+ro.baseband=unknown
+ro.bootmode=recovery
+ro.hardware=mt6735
+ro.revision=0
+ro.bootloader=unknown
+ro.debuggable=1
+ro.property_service.version=2
+sys.usb.controller=musb-hdrc
+persist.sys.dalvik.vm.lib.2=libart.so
+ro.sf.lcd_density=300
+ro.com.android.dataroaming=true
+ro.zygote=zygote32
+keyguard.no_require_sim=true
+tombstoned.max_tombstone_count=50
+ro.dalvik.vm.native.bridge=0
+dalvik.vm.isa.arm.variant=cortex-a53
+dalvik.vm.isa.arm.features=default
+dalvik.vm.dexopt.secondary=true
+dalvik.vm.usejit=true
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.appimageformat=lz4
+dalvik.vm.usejitprofiles=true
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.image-dex2oat-filter=extract
+ro.odm.build.date=Sat Nov  7 15:05:30 UTC 2026
+ro.odm.build.date.utc=1794063930
+ro.odm.build.version.incremental=eng.runner.20261107.150622
+ro.odm.build.fingerprint=Q-Tel/full_k37m_m01c/k37m_m01c:13/RP1A.200720.011/mp1k61v164bspP1:user/release-keys
+ro.boot.slot_suffix=_a
+ro.boot.dynamic_partitions=true
+ro.hwui.use_vulkan=
+ro.board.platform=mt6737m
+ro.build.ab_update=true
+ro.vendor.build.date=Sat Nov  7 15:05:30 UTC 2026
+ro.vendor.build.date.utc=1794063930
+ro.vendor.build.version.sdk=30
+ro.vendor.build.version.incremental=eng.runner.20261107.150622
+ro.vendor.build.fingerprint=Q-Tel/full_k37m_m01c/k37m_m01c:13/RP1A.200720.011/mp1k61v164bspP1:user/release-keys
+ro.carrier=unknown
+ro.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.product.cpu.abilist64=
+ro.product.odm.name=full_k37m_m01c
+ro.product.odm.brand=Q-Tel
+ro.product.odm.model=Q1
+ro.product.odm.device=k37m_m01c
+ro.product.odm.manufacturer=Q-Tel
+ro.product.board=k37m_m01c
+ro.product.vendor.name=full_k37m_m01c
+ro.product.vendor.brand=Q-Tel
+ro.product.vendor.model=Q1
+ro.product.vendor.device=k37m_m01c
+ro.product.vendor.manufacturer=Q-Tel
+ro.bootimage.build.date=Sat Nov 7 15:05:30 UTC 2026
+ro.bootimage.build.date.utc=1794063930
+ro.bootimage.build.fingerprint=Q-Tel/full_k37m_m01c/k37m_m01c:13/RP1A.200720.011/mp1k61v164bspP1:user/release-keys
+ro.build.fingerprint=Q-Tel/full_k37m_m01c/k37m_m01c:13/RP1A.200720.011/mp1k61v164bspP1:user/release-keys
+pm.dexopt.boot=extract
+pm.dexopt.ab-ota=speed-profile
+pm.dexopt.shared=speed
+pm.dexopt.install=speed-profile
+pm.dexopt.inactive=verify
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.first-boot=extract
+ro.adb.secure=0
+ro.secure=0
+sys.usb.config=adb
+sys.usb.configfs=1
+sys.usb.ffs.aio_compat=1
+ro.gsid.image_running=0
+gsid.image_installed=0
+hwservicemanager.ready=true
+init.svc_debug_pid.adbd=205
+init.svc_debug_pid.ueventd=197
+init.svc_debug_pid.recovery=204
+init.svc_debug_pid.hwservicemanager=201
+init.svc_debug_pid.vndservicemanager=202
+log.tag.stats_log=I
+ro.logd.size.stats=64K
+persist.debug.dalvik.vm.core_platform_api_policy=just-warn
+ro.boot.serialno=0123456789ABCDEF
+ro.serialno=0123456789ABCDEF
+service.adb.root=1
+net.bt.name=Android
+persist.sys.usb.config=adb
+persist.sys.disable_rescue=true
+persist.traced.enable=1
+ro.odm.build.id=RQ1A.210205.004
+ro.odm.build.tags=test-keys
+ro.odm.build.type=eng
+ro.odm.build.version.sdk=30
+ro.odm.build.version.release=11
+ro.odm.build.version.release_or_codename=16.1.0
+ro.odm.product.cpu.abilist=armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist64=
+ro.vendor.build.id=RQ1A.210205.004
+ro.vendor.build.tags=test-keys
+ro.vendor.build.type=eng
+ro.vendor.build.version.release=11
+ro.vendor.build.version.release_or_codename=16.1.0
+ro.vendor.product.cpu.abilist=armeabi-v7a,armeabi
+ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.vendor.product.cpu.abilist64=
+ro.vendor.build.security_patch=2099-12-31
+ro.vndk.lite=true
+ro.vndk.version=30
+
+=> Linking mtab
+=> Processing /etc/recovery.fstab
+I:Reading /etc/twrp.flags
+I:Reading /etc/recovery.fstab
+I:Processing '/system'
+I:Created '/system_root' folder.
+I:Unhandled flag: 'first_stage_mount'
+I:Processing '/vendor'
+I:Unhandled flag: 'first_stage_mount'
+I:Processing '/product'
+I:Unhandled flag: 'first_stage_mount'
+I:Processing '/metadata'
+I:Unhandled flag: 'first_stage_mount'
+I:Processing '/data'
+I:Unhandled flag: 'latemount'
+I:Unhandled flag: 'reservedsize=128M'
+I:Unhandled flag: 'checkpoint=fs'
+I:FBE contents 'aes-256-xts', filenames 'aes-256-cts:v2'
+I:setting Key_Directory to: /metadata/vold/metadata_encryption
+I:Processing '/misc'
+I:Processing remaining twrp.flags
+I:Processing '/boot'
+I:Processing '/dtbo'
+I:Processing '/external_sd'
+I:Created '/external_sd' folder.
+I:Processing '/lk'
+I:Processing '/logo'
+I:Processing '/nvdata'
+I:Created '/nvdata' folder.
+I:Processing '/nvram'
+I:Processing '/persistent'
+I:Processing '/proinfo'
+I:Processing '/protect_f'
+I:Created '/protect_f' folder.
+I:Processing '/protect_s'
+I:Created '/protect_s' folder.
+I:Processing '/seccfg'
+I:Processing '/usb_otg'
+I:Created '/usb_otg' folder.
+I:Processing '/vbmeta'
+I:Processing '/vbmeta_system'
+I:Processing '/vbmeta_vendor'
+I:Done processing fstab files
+I:Trying to prepare system from super partition
+I:unable to update logical partition: /system_root
+I:Trying to prepare vendor from super partition
+I:unable to update logical partition: /vendor
+I:Trying to prepare product from super partition
+I:unable to update logical partition: /product
+I:Setting up '/data' as data/media emulated storage.
+I:Can't probe device /dev/block/mmcblk0p31
+I:Unable to mount '/data'
+I:Actual block device: '/dev/block/mmcblk0p31', current file system: 'f2fs'
+I:Can't probe device /dev/block/mmcblk0p31
+Failed to mount '/data' (Invalid argument)
+I:Actual block device: '/dev/block/mmcblk0p31', current file system: 'f2fs'
+Unable to recreate /data/media folder.
+I:Can't probe device system
+Failed to mount '/system_root' (Block device required)
+I:Actual block device: 'system', current file system: 'ext4'
+I:Can't probe device vendor
+Failed to mount '/vendor' (Block device required)
+I:Actual block device: 'vendor', current file system: 'ext4'
+E:Unable to open /system_root/system/apex
+E:Unable to load apex images from /system_root/system/apex
+I:Backup folder set to '/data/media/TWRP/BACKUPS/0123456789ABCDEF'
+I:Settings storage is '/data/media'
+Updating partition details...
+I:Can't probe device system
+Failed to mount '/system_root' (Block device required)
+I:Actual block device: 'system', current file system: 'ext4'
+I:checking for twrp app
+I:Can't probe device vendor
+Failed to mount '/vendor' (Block device required)
+I:Actual block device: 'vendor', current file system: 'ext4'
+I:Can't probe device product
+Failed to mount '/product' (Block device required)
+I:Actual block device: 'product', current file system: 'ext4'
+I:Can't probe device /dev/block/mmcblk0p31
+Failed to mount '/data' (Invalid argument)
+I:Actual block device: '/dev/block/mmcblk0p31', current file system: 'f2fs'
+...done
+I:Can't probe device /dev/block/mmcblk0p31
+I:Unable to mount '/data'
+I:Actual block device: '/dev/block/mmcblk0p31', current file system: 'f2fs'
+Unable to mount storage
+/super | /dev/block/by-name/super | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Alternate_Block_Device: /dev/block/by-name/super
+   Display_Name: super
+   Backup_Path: /super
+   Backup_Name: super
+   Backup_Display_Name: Super (system vendor product)
+   Current_File_System: emmc
+   Backup_Method: dd
+
+I:Unmounting main partitions...
+Updating partition details...
+I:Can't probe device system
+Failed to mount '/system_root' (Block device required)
+I:Actual block device: 'system', current file system: 'ext4'
+I:checking for twrp app
+I:Can't probe device vendor
+Failed to mount '/vendor' (Block device required)
+I:Actual block device: 'vendor', current file system: 'ext4'
+I:Can't probe device product
+Failed to mount '/product' (Block device required)
+I:Actual block device: 'product', current file system: 'ext4'
+I:Can't probe device /dev/block/mmcblk0p31
+Failed to mount '/data' (Invalid argument)
+I:Actual block device: '/dev/block/mmcblk0p31', current file system: 'f2fs'
+...done
+I:Can't probe device /dev/block/mmcblk0p31
+I:Unable to mount '/data'
+I:Actual block device: '/dev/block/mmcblk0p31', current file system: 'f2fs'
+Unable to mount storage
+tw_get_context failed to get selinux context, file /data/media
+I:Failed to get default contexts and file mode for storage files.
+SELinux contexts loaded from /file_contexts
+Full SELinux support is present.
+I:Can't probe device /dev/block/mmcblk0p31
+I:Unable to mount '/data'
+I:Actual block device: '/dev/block/mmcblk0p31', current file system: 'f2fs'
+I:Unable to mount settings storage during GUI startup.
+
+
+Partition Logs:
+/system_root | system | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted IsPresent SlotSelect Mount_Read_Only Is_Super 
+   Primary_Block_Device: system
+   Display_Name: System
+   Storage_Name: System
+   Backup_Path: /system_root
+   Backup_Name: system
+   Backup_Display_Name: System
+   Storage_Path: /system_root
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/vendor | vendor | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped IsPresent SlotSelect Mount_Read_Only Is_Super 
+   Primary_Block_Device: vendor
+   Display_Name: Vendor
+   Storage_Name: Vendor
+   Backup_Path: /vendor
+   Backup_Name: vendor
+   Backup_Display_Name: Vendor
+   Storage_Path: /vendor
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/product | product | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up Wipe_Available_in_GUI IsPresent SlotSelect Mount_Read_Only Is_Super 
+   Primary_Block_Device: product
+   Display_Name: Product
+   Storage_Name: Product
+   Backup_Path: /product
+   Backup_Name: Product
+   Backup_Display_Name: Product
+   Storage_Path: /product
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/metadata | /dev/block/mmcblk0p10 | Size: 17MB Used: 0MB Free: 17MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Wipe_Available_in_GUI IsPresent 
+   Primary_Block_Device: /dev/block/mmcblk0p10
+   Display_Name: metadata
+   Storage_Name: metadata
+   Backup_Path: /metadata
+   Backup_Name: metadata
+   Backup_Display_Name: metadata
+   Storage_Path: /metadata
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+   Mount_Flags: 1030, Mount_Options: discard
+
+/data | /dev/block/mmcblk0p31 | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up Wipe_During_Factory_Reset Wipe_Available_in_GUI IsPresent Has_Data_Media Can_Encrypt_Backup Use_Userdata_Encryption Is_Storage Is_Settings_Storage 
+   Symlink_Path: /data/media
+   Symlink_Mount_Point: /sdcard
+   Primary_Block_Device: /dev/block/mmcblk0p31
+   Display_Name: Data
+   Storage_Name: Internal Storage
+   Backup_Path: /data
+   Backup_Name: data
+   Backup_Display_Name: Data
+   Storage_Path: /data/media
+   Current_File_System: f2fs
+   Fstab_File_System: f2fs
+   Backup_Method: files
+   Mount_Flags: 1030, Mount_Options: discard,noflush_merge,reserve_root=134217,resgid=1065
+   MTP_Storage_ID: 65537
+   Metadata Key Directory: /metadata/vold/metadata_encryption
+
+/misc | /dev/block/mmcblk0p6 | Size: 0MB
+   Flags: IsPresent 
+   Primary_Block_Device: /dev/block/mmcblk0p6
+   Display_Name: misc
+   Storage_Name: misc
+   Backup_Path: /misc
+   Backup_Name: misc
+   Backup_Display_Name: misc
+   Storage_Path: /misc
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/boot | /dev/block/platform/bootdevice/by-name/boot_b | Size: 32MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img SlotSelect 
+   Primary_Block_Device: /dev/block/platform/bootdevice/by-name/boot
+   Display_Name: Boot
+   Storage_Name: Boot
+   Backup_Path: /boot
+   Backup_Name: boot
+   Backup_Display_Name: Boot
+   Storage_Path: /boot
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/dtbo | /dev/block/platform/bootdevice/by-name/dtbo_b | Size: 8MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img SlotSelect 
+   Primary_Block_Device: /dev/block/platform/bootdevice/by-name/dtbo
+   Display_Name: DTBO
+   Storage_Name: DTBO
+   Backup_Path: /dtbo
+   Backup_Name: dtbo
+   Backup_Display_Name: DTBO
+   Storage_Path: /dtbo
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/external_sd |  | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Wipe_Available_in_GUI Removable Is_Storage 
+   Primary_Block_Device: /dev/block/mmcblk1p1
+   Alternate_Block_Device: /dev/block/mmcblk1
+   Display_Name: MicroSD
+   Storage_Name: MicroSD
+   Backup_Path: /external_sd
+   Backup_Name: external_sd
+   Backup_Display_Name: MicroSD
+   Storage_Path: /external_sd
+   Current_File_System: auto
+   Fstab_File_System: auto
+   Backup_Method: files
+   MTP_Storage_ID: 65538
+
+/lk | /dev/block/platform/bootdevice/by-name/lk_b | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent SlotSelect 
+   Primary_Block_Device: /dev/block/platform/bootdevice/by-name/lk
+   Display_Name: Bootloader (LK)
+   Storage_Name: Bootloader (LK)
+   Backup_Path: /lk
+   Backup_Name: lk
+   Backup_Display_Name: Bootloader (LK)
+   Storage_Path: /lk
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/logo | /dev/block/mmcblk0p9 | Size: 8MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/mmcblk0p9
+   Display_Name: Logo
+   Storage_Name: Logo
+   Backup_Path: /logo
+   Backup_Name: logo
+   Backup_Display_Name: Logo
+   Storage_Path: /logo
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/nvdata | /dev/block/mmcblk0p20 | Size: 26MB Used: 2MB Free: 24MB Backup Size: 2MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/mmcblk0p20
+   Display_Name: NVDATA
+   Storage_Name: NVDATA
+   Backup_Path: /nvdata
+   Backup_Name: nvdata
+   Backup_Display_Name: NVDATA
+   Storage_Path: /nvdata
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/nvram | /dev/block/mmcblk0p2 | Size: 5MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/mmcblk0p2
+   Display_Name: NVRAM
+   Storage_Name: NVRAM
+   Backup_Path: /nvram
+   Backup_Name: nvram
+   Backup_Display_Name: NVRAM
+   Storage_Path: /nvram
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/persistent | /dev/block/mmcblk0p19 | Size: 1MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/mmcblk0p19
+   Display_Name: FRP
+   Storage_Name: FRP
+   Backup_Path: /persistent
+   Backup_Name: persistent
+   Backup_Display_Name: FRP
+   Storage_Path: /persistent
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/proinfo | /dev/block/mmcblk0p1 | Size: 3MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/mmcblk0p1
+   Display_Name: ProInfo
+   Storage_Name: ProInfo
+   Backup_Path: /proinfo
+   Backup_Name: proinfo
+   Backup_Display_Name: ProInfo
+   Storage_Path: /proinfo
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/protect_f | /dev/block/mmcblk0p3 | Size: 5MB Used: 0MB Free: 5MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/mmcblk0p3
+   Display_Name: Protect1
+   Storage_Name: Protect1
+   Backup_Path: /protect_f
+   Backup_Name: protect_f
+   Backup_Display_Name: Protect1
+   Storage_Path: /protect_f
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/protect_s | /dev/block/mmcblk0p4 | Size: 5MB Used: 0MB Free: 5MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/mmcblk0p4
+   Display_Name: Protect2
+   Storage_Name: Protect2
+   Backup_Path: /protect_s
+   Backup_Name: protect_s
+   Backup_Display_Name: Protect2
+   Storage_Path: /protect_s
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/seccfg | /dev/block/mmcblk0p12 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/mmcblk0p12
+   Display_Name: SecCfg
+   Storage_Name: SecCfg
+   Backup_Path: /seccfg
+   Backup_Name: seccfg
+   Backup_Display_Name: SecCfg
+   Storage_Path: /seccfg
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/usb_otg |  | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Wipe_Available_in_GUI Removable Is_Storage 
+   Primary_Block_Device: /dev/block/sda1
+   Alternate_Block_Device: /dev/block/sda
+   Display_Name: USB-OTG
+   Storage_Name: USB-OTG
+   Backup_Path: /usb_otg
+   Backup_Name: usb_otg
+   Backup_Display_Name: USB-OTG
+   Storage_Path: /usb_otg
+   Current_File_System: auto
+   Fstab_File_System: auto
+   Backup_Method: files
+   MTP_Storage_ID: 65539
+
+/vbmeta | /dev/block/platform/bootdevice/by-name/vbmeta_b | Size: 8MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img SlotSelect 
+   Primary_Block_Device: /dev/block/platform/bootdevice/by-name/vbmeta
+   Display_Name: VBMeta
+   Storage_Name: VBMeta
+   Backup_Path: /vbmeta
+   Backup_Name: vbmeta
+   Backup_Display_Name: VBMeta
+   Storage_Path: /vbmeta
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/vbmeta_system | /dev/block/platform/bootdevice/by-name/vbmeta_system_b | Size: 8MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img SlotSelect 
+   Primary_Block_Device: /dev/block/platform/bootdevice/by-name/vbmeta_system
+   Display_Name: VBMeta System
+   Storage_Name: VBMeta System
+   Backup_Path: /vbmeta_system
+   Backup_Name: vbmeta_system
+   Backup_Display_Name: VBMeta System
+   Storage_Path: /vbmeta_system
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/vbmeta_vendor | /dev/block/platform/bootdevice/by-name/vbmeta_vendor_b | Size: 8MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img SlotSelect 
+   Primary_Block_Device: /dev/block/platform/bootdevice/by-name/vbmeta_vendor
+   Display_Name: VBMeta Vendor
+   Storage_Name: VBMeta Vendor
+   Backup_Path: /vbmeta_vendor
+   Backup_Name: vbmeta_vendor
+   Backup_Display_Name: VBMeta Vendor
+   Storage_Path: /vbmeta_vendor
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/super | /dev/block/by-name/super | Size: 2560MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Alternate_Block_Device: /dev/block/by-name/super
+   Display_Name: super
+   Backup_Path: /super
+   Backup_Name: super
+   Backup_Display_Name: Super (system vendor product)
+   Current_File_System: emmc
+   Backup_Method: dd
+
+I:Can't probe device /dev/block/mmcblk0p31
+I:Unable to mount '/data'
+I:Actual block device: '/dev/block/mmcblk0p31', current file system: 'f2fs'
+I:Can't probe device /dev/block/mmcblk0p31
+I:Unable to mount '/data'
+I:Actual block device: '/dev/block/mmcblk0p31', current file system: 'f2fs'
+Unable to mount /data/media/TWRP/.twrps
+I:Attempt to load settings from settings file...
+I:InfoManager file '/data/media/TWRP/.twrps' not found.
+I:Backup folder set to '/data/media/TWRP/BACKUPS/0123456789ABCDEF'
+I:Unable to open: /data/recovery/.version. Data may be unmounted. Error: No such file or directory
+I:Can't probe device /dev/block/mmcblk0p31
+I:Unable to mount '/data'
+I:Actual block device: '/dev/block/mmcblk0p31', current file system: 'f2fs'
+I:Unable to mount '/external_sd'
+I:Actual block device: '', current file system: 'auto'
+I:Unable to mount '/usb_otg'
+I:Actual block device: '', current file system: 'auto'
+I:TWFunc::Set_Brightness: Setting brightness control to 120
+I:Starting MTP
+I:Cannot find file /sys/class/android_usb/android0/idVendor
+I:Cannot find file /sys/class/android_usb/android0/idProduct
+I:[MTP] Starting MTP
+I:Can't probe device /dev/block/mmcblk0p31
+I:Unable to mount '/data'
+I:Actual block device: '/dev/block/mmcblk0p31', current file system: 'f2fs'
+MTP Enabled
+I:Recreating /data/recovery/ folder.
+I:Can't probe device /dev/block/mmcblk0p31
+I:Unable to mount '/data'
+I:Actual block device: '/dev/block/mmcblk0p31', current file system: 'f2fs'
+I:Can't probe device /dev/block/mmcblk0p31
+I:Unable to mount '/data'
+I:Actual block device: '/dev/block/mmcblk0p31', current file system: 'f2fs'
+I:Path /data/recovery/log.gz does not exist. Unable to copy file to /data/recovery/last_log.gz
+I:Can't probe device /dev/block/mmcblk0p31
+I:Unable to mount '/data'
+I:Actual block device: '/dev/block/mmcblk0p31', current file system: 'f2fs'
+I:Can't probe device system
+I:Unable to mount '/system_root'
+I:Actual block device: 'system', current file system: 'ext4'
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+parsing languageFile
+parsing languageFile done
+I:Starting Adb Backup FIFO
+I:Translating partition display names
+I:Backup folder set to '/data/media/TWRP/BACKUPS/0123456789ABCDEF'
+I:Can't probe device system
+Failed to mount '/system_root' (Block device required)
+I:Actual block device: 'system', current file system: 'ext4'
+I:Unable to read sdk version from build prop
+I:Switching packages (TWRP)
+I:Set page: 'main'
+I:Set page: 'clear_vars'
+I:Set page: 'main2'
+I:[MTP] Using 'Galaxy A02' for MTP device.
+E:[MTP] could not open MTP driver, errno: 2
